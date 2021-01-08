@@ -1,0 +1,5 @@
+El proyecto se tratara de una web la cual albergara diferentes subastas realizadas por diferentes usuarios.
+estos usuarios podran subir el producto en cuestion y determinar un valor al que quieren venderlo, con este valor
+luego se determinara el valor inicial de la subasta.
+al finalizar la misma (tendra un tiempo limite, y la mejor oferta se lo lleva), el usuarios recibira el monto obtenido en la subasta, menos una comision del 5% que quedaria
+para la web.
