@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="../css/estilos.css">
     <title>SUBASTAS</title>
 
-    <script src="js/index.js"></script>
 </head>
 <body>
     <header class="cabecera">
@@ -24,42 +23,49 @@
                         <a href="../secciones/subastas.html">SUBASTAS</a>
                     </li>
                     <li>
-                        <a href="#">CONTACTO</a>
+                        <a href="#" id="linkUsuario">ingrese usuario</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
     <section class="productosSubastado">
-        <div class="productosSubastado__contenedor">
+        <div class="productosSubastado__contenedor" id="productosSubastado__contenedor">
             <div>
-                <h1>PRODUCTOS DISPONIBLES EN SUBASTAS</h1>
+                <h1 ><strong id="productosTitulo"></strong>, Estas son las ultimas Subastas</h1>
             </div>
-            <article class="">
+            <!-- <article class="producto">
                 <div class="img">
                 </div>
                 <h3>PRODUCTO</h3>
                 <p>descripcion</p>
-                <a class="btn">OFRECER MAS</a>
+                <p class="producto__precio"></p>
+                <input type="button" class="btn" value="OFRECER MAS">
             </article>
-            <article class="">
+            <article class="producto">
                 <div class="img">
                 </div>
                 <h3>PRODUCTO</h3>
                 <p>descripcion</p>
-                <a class="btn">OFRECER MAS</a>
+                <p class="producto__precio"></p>
+                <input type="button" class="btn" value="OFRECER MAS">
             </article>
-            <article class="">
+            <article class="producto">
                 <div class="img">
                 </div>
                 <h3>PRODUCTO</h3>
                 <p>descripcion</p>
-                <a href="#" class="btn">OFRECER MAS</a>
-            </article>
+                <p class="producto__precio"></p>
+                <input type="button" class="btn" value="OFRECER MAS">
+            </article> -->
         </div>
     </section>
 
-    <script src="js/ProductoSubastar.js"></script>
+    
+    <script src="../js/productos.js"></script>
+    <script src="../js/ProductoSubastar.js"></script>
+    <script src="../js/storage.js"></script>
+    <script src="../js/dom.js"></script>
 
 </body>
 </html>
